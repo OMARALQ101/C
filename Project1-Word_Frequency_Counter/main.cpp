@@ -24,7 +24,7 @@ bool comp(std::pair<std::string, int>& a, std::pair<std::string, int>& b) {
 
 int main()
 {
-    //the multimap is for storing the word and the number of times the word has appeared
+    //the map is for storing the word and the number of times the word has appeared
     std::map<std::string, int> words;
     std::string filename;
     std::string s;
